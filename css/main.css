@@ -1,0 +1,66 @@
+.Layer_21 {
+  background-image: url("../images/Layer_21.png");
+  position: relative;
+  left: 521px;
+  top: 1px;
+  width: 120px;
+  height: 120px;
+  z-index: 96;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 51px;
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+    
+    /* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+     height: auto;
+     padding: 15px;
+
+  }
+  .row.content {
+    height:auto;
+  } 
+  .menu_text{
+    background-color: black;
+  }
+}
+
+.Layer_1 {
+  background-image: url("../images/Layer_1.png");
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100% !important;
+  z-index: 92;
+}
+.menu_text{
+  font-size: 12px;
+  font-family: "Lucida Sans";
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  line-height: 6.25;
+  position: relative;
+  z-index: 93;
+}
