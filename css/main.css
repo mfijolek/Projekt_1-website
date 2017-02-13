@@ -1,12 +1,13 @@
 .Layer_21 {
   background-image: url("../images/Layer_21.png");
-  position: relative;
-  left: 521px;
+  position: absolute;
+  left: 16.66%;
   top: 1px;
   width: 120px;
   height: 120px;
   z-index: 96;
 }
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
   margin-bottom: 0;
@@ -32,6 +33,32 @@ footer {
 }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
+
+
+.Layer_1 {
+  background-image: url("../images/Layer_1.png");
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100% !important;
+  z-index: 92;
+}
+
+.menu_text{
+  font-size: 12px;
+  font-family: "Lucida Sans";
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  line-height: 6.25;
+  position: relative;
+  z-index: 93;
+}
+.col_menu {
+	max-width: 68%;
+	margin-left: 16.66% !important;
+}
+
 @media screen and (max-width: 767px) {
   .sidenav {
      height: auto;
@@ -44,23 +71,8 @@ footer {
   .menu_text{
     background-color: black;
   }
-}
-
-.Layer_1 {
-  background-image: url("../images/Layer_1.png");
-  position: relative;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100% !important;
-  z-index: 92;
-}
-.menu_text{
-  font-size: 12px;
-  font-family: "Lucida Sans";
-  color: rgb(254, 254, 254);
-  text-transform: uppercase;
-  line-height: 6.25;
-  position: relative;
-  z-index: 93;
+  .col_menu{
+  	max-width: 100% !important;
+  	margin-left: 0px !important;
+  }
 }
