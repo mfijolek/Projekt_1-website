@@ -181,14 +181,13 @@ div.style1 > p {
   
 }
 /*biały kolor linków*/
-.list-unstyled > li > a {
+.list-unstyled > li > a, .footer-font {
 	color: #A9A9A9;
 }
 
 .horizontal_dotted_line {
   border:none;
   border-top:thin dotted #444;
-
   height:3px;
   width:80%;
 }
