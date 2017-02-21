@@ -112,7 +112,7 @@ footer {
 	margin: auto;
 }
  footer{
- 	background-color: black;
+ 	background-color: #000;
  	font-size: 10px;
  }
 .Fiercely_Creative {
@@ -179,4 +179,16 @@ div.style1 > p {
   left: 924.125px;
   top: 461.497px;
   
+}
+/*biały kolor linków*/
+.list-unstyled > li > a {
+	color: #A9A9A9;
+}
+
+.horizontal_dotted_line {
+  border:none;
+  border-top:thin dotted #444;
+
+  height:3px;
+  width:80%;
 }
